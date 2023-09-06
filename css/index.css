@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  height: 100vh; /* Fyld hele skærmen */
 }
 
 .vinterfarve {
@@ -22,4 +23,37 @@
 .efterarfarve {
   background-color: orange;
   padding: 100px;
+}
+.grid_forside {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.vinterfarve,
+.forarfarve,
+.sommerfarve,
+.efterarfarve {
+  padding: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .grid_forside {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .vinterfarve,
+  .forarfarve,
+  .sommerfarve,
+  .efterarfarve {
+    padding: 19px; /* Reducer padding i mobiltilstand for at tilpasse indholdet */
+  }
+}
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Fyld hele boksen lodret */
 }
