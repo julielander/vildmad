@@ -1,0 +1,25 @@
+.grid_forside {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.vinterfarve {
+  background-color: blue;
+  padding: 100px;
+}
+
+.forarfarve {
+  background-color: green;
+  padding: 100px;
+}
+
+.sommerfarve {
+  background-color: yellow;
+  padding: 100px;
+}
+
+.efterarfarve {
+  background-color: orange;
+  padding: 100px;
+}
