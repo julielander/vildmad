@@ -6,22 +6,22 @@
 }
 
 .vinterfarve {
-  background-color: blue;
+  background-color: #86b0d0;
   padding: 100px;
 }
 
 .forarfarve {
-  background-color: green;
+  background-color: #9baf8b;
   padding: 100px;
 }
 
 .sommerfarve {
-  background-color: yellow;
+  background-color: #f0907b;
   padding: 100px;
 }
 
 .efterarfarve {
-  background-color: orange;
+  background-color: #f5be80;
   padding: 100px;
 }
 .grid_forside {
