@@ -57,3 +57,28 @@
   align-items: center;
   height: 100%; /* Fyld hele boksen lodret */
 }
+
+a {
+  font-family: "futura-pt", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  transition: transform 0.4s;
+}
+
+a:hover {
+  transform: scale(1.4); /*zoom effekt på knapper*/
+}
+
+@media screen and (min-width: 1200px) {
+  a {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+  }
+}
